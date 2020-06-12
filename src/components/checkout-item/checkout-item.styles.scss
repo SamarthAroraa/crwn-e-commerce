@@ -21,7 +21,13 @@
   .price {
     width: 23%;
   }
-
+  .quantity,
+  .remove-button {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
   .quantity {
     // padding-left: 20px;
     display: flex;
