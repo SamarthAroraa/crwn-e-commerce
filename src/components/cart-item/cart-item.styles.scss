@@ -19,5 +19,39 @@
     .name {
       font-size: 16px;
     }
+    .name,
+    .quantity,
+    .price {
+      width: 23%;
+    }
+    .price {
+      margin-left: 0px;
+    }
+    .x-multiplier {
+      margin: 0px 5px;
+    }
+    .quantity,
+    .remove-button {
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+    .quantity {
+      // padding-left: 20px;
+      display: flex;
+      .arrow {
+        cursor: pointer;
+      }
+      .value {
+        margin: 0 2px;
+      }
+      // justify-content:;
+    }
+
+    .remove-button {
+      padding-left: 12px;
+      cursor: pointer;
+    }
   }
 }
